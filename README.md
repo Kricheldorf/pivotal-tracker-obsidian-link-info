@@ -26,7 +26,8 @@ title and estimate.
 ## Installation
 
 - Enable Community Plugins in Obsidian.
-- Clone this repo to your vault's plugin folder `VaultFolder/.obsidian/plugins/`.
+- Create the plugin folder: `VaultFolder/.obsidian/plugins/pivotal-tracker-obsidian-link-info`.
+- Download the `main.js` and `manifest.json` files of the [latest release](https://github.com/Kricheldorf/pivotal-tracker-obsidian-link-info/releases/) into the folder.
 - Enable the plugin in Obsidian's Community Plugins settings page.
 
 ## Configuration
