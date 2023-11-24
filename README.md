@@ -27,8 +27,6 @@ title and estimate.
 
 - Enable Community Plugins in Obsidian.
 - Clone this repo to your vault's plugin folder `VaultFolder/.obsidian/plugins/`.
-- Run `npm i` or `yarn` to install dependencies.
-- Run `npm run build` or `yarn build` to compile the plugin.
 - Enable the plugin in Obsidian's Community Plugins settings page.
 
 ## Configuration
@@ -45,10 +43,16 @@ title and estimate.
 
 ## How run locally for development
 
-- Clone this repo.
+- Clone this repo to your vault's plugin folder `VaultFolder/.obsidian/plugins/`.
 - Make sure your NodeJS is at least v16 (`node --version`).
 - `npm i` or `yarn` to install dependencies.
 - `npm run dev` to start compilation in watch mode.
+
+## How to create a new release
+
+- Update the version number in the `manifest.json`.
+- Run `git tag -a 1.0.0 -m "1.0.0"` with the same version number of the `manifest.json`.
+- Run `git push origin 1.0.0` with the same version number of the `manifest.json`.
 
 ## API Documentation
 
