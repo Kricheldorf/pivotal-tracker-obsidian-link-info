@@ -1,11 +1,9 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "pivotal-tracker-obsidian-link-info",
+	"name": "PT Link Updater",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Replaces Pivotal Tracker story links with its information.",
+	"author": "Guilherme Kricheldorf",
 	"isDesktopOnly": false
 }

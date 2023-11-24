@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "pivotal-tracker-obsidian-link-info",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Replaces Pivotal Tracker story links with its information.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
